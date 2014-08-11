@@ -1,4 +1,4 @@
 AuthType Basic  
 AuthName "restricted area"  
-AuthUserFile /Sites/nestwood_llc/.htpasswd  
+AuthUserFile /nestwood/.htpasswd  
 require valid-user
