@@ -10194,41 +10194,47 @@ p.lead {
 
 /* line 40, ../scss/_custom.scss */
 .top-bar {
-  background: #2d3a60;
+  background: #c9d2d5;
   font-family: "MuseoSlab-500", Times, serif;
+  height: 90px;
+  padding: 0 1.5em;
 }
-/* line 44, ../scss/_custom.scss */
+/* line 46, ../scss/_custom.scss */
 .top-bar ul li {
   background: none;
 }
-/* line 46, ../scss/_custom.scss */
+/* line 48, ../scss/_custom.scss */
 .top-bar ul li a {
   background: none;
-  color: #c9d2d5;
+  color: #2d3a60;
   font-family: "MuseoSlab-500", Times, serif;
   text-transform: uppercase;
 }
+/* line 55, ../scss/_custom.scss */
+.top-bar ul.right {
+  margin-top: 1.5em;
+}
 
-/* line 56, ../scss/_custom.scss */
+/* line 61, ../scss/_custom.scss */
 article {
   padding: 5em 0;
 }
 
-/* line 60, ../scss/_custom.scss */
+/* line 65, ../scss/_custom.scss */
 .row {
   padding: 0 1.5%;
 }
 
-/* line 64, ../scss/_custom.scss */
+/* line 69, ../scss/_custom.scss */
 .top-bar-section li:not(.has-form) a:not(.button) {
   background: none;
 }
-/* line 66, ../scss/_custom.scss */
+/* line 71, ../scss/_custom.scss */
 .top-bar-section li:not(.has-form) a:not(.button):hover {
   background: none;
 }
 
-/* line 71, ../scss/_custom.scss */
+/* line 76, ../scss/_custom.scss */
 #banner {
   background-attachment: scroll, scroll, scroll, fixed;
   background-color: #645862;
@@ -10241,7 +10247,7 @@ article {
   padding: 6em 0;
   text-align: center;
 }
-/* line 82, ../scss/_custom.scss */
+/* line 87, ../scss/_custom.scss */
 #banner .inner {
   background: rgba(201, 210, 213, 0.75);
   border-radius: 2px 2px 2px;
@@ -10251,46 +10257,46 @@ article {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 90, ../scss/_custom.scss */
+/* line 95, ../scss/_custom.scss */
 #banner .inner h2 {
   border-top: 4px double #2d3a60;
   border-bottom: 4px double #2d3a60;
 }
 
-/* line 97, ../scss/_custom.scss */
+/* line 102, ../scss/_custom.scss */
 #about {
   background: #1e3b1e;
 }
-/* line 99, ../scss/_custom.scss */
+/* line 104, ../scss/_custom.scss */
 #about h2, #about h3, #about span, #about p, #about i {
   color: #c9d2d5;
 }
-/* line 102, ../scss/_custom.scss */
+/* line 107, ../scss/_custom.scss */
 #about h2 {
   border-color: #c9d2d5;
 }
-/* line 105, ../scss/_custom.scss */
+/* line 110, ../scss/_custom.scss */
 #about .green {
   background: rgba(255, 255, 255, 0.25);
   border-radius: 2px 2px 2px;
 }
-/* line 108, ../scss/_custom.scss */
+/* line 113, ../scss/_custom.scss */
 #about .green li {
   display: table;
   line-height: 1em;
 }
-/* line 111, ../scss/_custom.scss */
+/* line 116, ../scss/_custom.scss */
 #about .green li span {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 117, ../scss/_custom.scss */
+/* line 122, ../scss/_custom.scss */
 #about i {
   font-size: 3em;
   margin-right: .25em;
 }
 
-/* line 124, ../scss/_custom.scss */
+/* line 129, ../scss/_custom.scss */
 #services i {
   background: #5b4832;
   border-radius: 50%;
@@ -10301,30 +10307,30 @@ article {
   padding: .45em;
   text-align: center;
 }
-/* line 134, ../scss/_custom.scss */
+/* line 139, ../scss/_custom.scss */
 #services .medium-4 {
   text-align: center;
 }
 
-/* line 139, ../scss/_custom.scss */
+/* line 144, ../scss/_custom.scss */
 #clients {
   background: url(../images/brick-wall.png) repeat;
 }
-/* line 141, ../scss/_custom.scss */
+/* line 146, ../scss/_custom.scss */
 #clients img {
   border: 4px double #2d3a60;
   max-width: 100%;
   height: auto;
 }
 
-/* line 148, ../scss/_custom.scss */
+/* line 153, ../scss/_custom.scss */
 #footer {
   background: #2b1f11;
   color: #c9d2d5;
   padding: 1em 0;
   font-size: .5em;
 }
-/* line 153, ../scss/_custom.scss */
+/* line 158, ../scss/_custom.scss */
 #footer a {
   color: #c9d2d5;
 }

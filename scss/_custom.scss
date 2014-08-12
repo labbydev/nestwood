@@ -38,17 +38,22 @@ p.lead{
 }
 
 .top-bar{
- background: $catalinablue;
+ background: $zumthor;
  font-family: $museoslab;
+ height: 90px;
+ padding: 0 1.5em;
  ul{
   li{
     background: none;
     a{
       background: none;
-      color: $zumthor;
+      color: $catalinablue;
       font-family: $museoslab;
       text-transform: uppercase;
     }
+  }
+  &.right{
+    margin-top: 1.5em;
   }
  }
 }
