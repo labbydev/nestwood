@@ -32,9 +32,23 @@ h2{
   margin-bottom: 1em;
 }
 
+img{
+  border: 4px double $catalinablue;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
 p.lead{
   text-align: center;
   text-transform: uppercase;
+}
+
+.vcard{
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .top-bar{
@@ -50,6 +64,12 @@ p.lead{
       color: $catalinablue;
       font-family: $museoslab;
       text-transform: uppercase;
+    }
+    &.name{
+      height: auto;
+      img{
+        margin: 0;
+      }
     }
   }
   &.right{
@@ -75,11 +95,8 @@ article{
 
 #banner{
   background-attachment: scroll, scroll, scroll, fixed;
-  background-color: #645862;
-  background-image: url("../images/city.jpg");
-  background-position: bottom left, bottom right, top left, top center;
-  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-  background-size: cover;
+  background: $zumthor url("../images/hero__bird.png") no-repeat center center;
+  background-size: contain;
   color: white;
   cursor: default;
   padding: 6em 0;
@@ -94,7 +111,10 @@ article{
     text-transform: uppercase;
     h2{
       border-top: 4px double $catalinablue;
-      border-bottom: 4px double $catalinablue; 
+      border-bottom: 4px double $catalinablue;
+      span{
+        color: $myrtle;
+      } 
     }
   }
 }
@@ -143,11 +163,6 @@ article{
 
 #clients{
   background: url(../images/brick-wall.png) repeat;
-  img{
-    border: 4px double $catalinablue;
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 #footer{
@@ -160,8 +175,9 @@ article{
   }
 }
 
-
-
+.top-bar.expanded .title-area{
+  background: none;
+}
 
 
 
