@@ -181,12 +181,15 @@ article{
   }
 }
 
-.top-bar.expanded .title-area{
-  background: none;
+.top-bar.expanded{
+  background: $zumthor;
+  .title-area{
+    background: none;
+  }
 }
 
 #contact img{
-  margin-bottom: 1.25rem;
+  margin: 1.25rem auto;
 }
 
 

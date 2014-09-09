@@ -10361,11 +10361,15 @@ article {
 }
 
 /* line 184, ../scss/_custom.scss */
+.top-bar.expanded {
+  background: #c9d2d5;
+}
+/* line 186, ../scss/_custom.scss */
 .top-bar.expanded .title-area {
   background: none;
 }
 
-/* line 188, ../scss/_custom.scss */
+/* line 191, ../scss/_custom.scss */
 #contact img {
-  margin-bottom: 1.25rem;
+  margin: 1.25rem auto;
 }
