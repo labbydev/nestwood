@@ -56,6 +56,10 @@ p.lead{
  font-family: $museoslab;
  height: 90px;
  padding: 0 1.5em;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 500;
  ul{
   li{
     background: none;
@@ -79,7 +83,7 @@ p.lead{
 }
 
 article{
-  padding: 5em 0;
+  padding: 6em 0;
 }
 
 .row{
@@ -99,6 +103,7 @@ article{
   background-size: cover;
   color: white;
   cursor: default;
+  margin-top: 90px;
   padding: 6em 0;
   text-align: center;
   .inner{
@@ -106,6 +111,7 @@ article{
     border-radius: 2px 2px 2px;
     color: $catalinablue;
     display: inline-block;
+    min-width: 40%;
     padding: 3em;
     text-align: center;
     text-transform: uppercase;
@@ -177,6 +183,10 @@ article{
 
 .top-bar.expanded .title-area{
   background: none;
+}
+
+#contact img{
+  margin-bottom: 1.25rem;
 }
 
 
