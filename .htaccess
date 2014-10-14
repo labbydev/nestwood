@@ -1,4 +1,0 @@
-AuthType Basic  
-AuthName "restricted area"  
-AuthUserFile https://github.com/labyrwa/nestwood/blob/master/.htpasswd
-require valid-user
